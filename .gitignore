@@ -62,3 +62,5 @@ out/
 hs_err_pid*
 replay_pid*
 
+# Ignore application.properties file
+/src/main/resources/application.properties
