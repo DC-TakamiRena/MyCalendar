@@ -13,10 +13,10 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Plan {
+public class Schedule {
 	@Id
 	@GeneratedValue
-	private int id;
+	private Long id;
 	private String title;
 	private LocalDateTime startDatetime;
 	private LocalDateTime endDatetime;
